@@ -84,6 +84,10 @@ img {
   transition: 0.5s;
 }
 
+.button:hover {
+  background-color: rgb(93, 93, 186);
+}
+
 .button:hover span {
   padding-right: 25px;
 }
@@ -128,4 +132,8 @@ img {
   .container {
     width: 300px;
   }
+}
+
+.fab:hover {
+  color: rgb(93, 93, 186);
 }
