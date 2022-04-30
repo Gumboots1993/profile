@@ -2,12 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,900;1,300&display=swap');
 
+html, body {
+  min-height: 100%;
+}
+
+html {
+  background-color: rgba(124, 124, 248, 0.114); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(124, 124, 248), rgba(124, 124, 248, 0.08));
+}
+
 body {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
-  height: 100%;
-  background-color: rgba(124, 124, 248, 0.114); /* For browsers that do not support gradients */
-  background-image: linear-gradient(rgb(124, 124, 248), rgba(124, 124, 248, 0.08));
 }
 
 h1 {
@@ -15,6 +21,7 @@ h1 {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
   font-size: 50px;
+  line-height: 51px;
 }
 
 h2 {
@@ -27,6 +34,8 @@ h3 {
   color: rgb(87, 87, 255);
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  line-height: 21px;
 }
 
 p {
@@ -136,4 +145,8 @@ img {
 
 .fab:hover {
   color: rgb(93, 93, 186);
+}
+
+#LearnMore {
+  display: none;
 }
